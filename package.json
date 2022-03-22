@@ -1,0 +1,13 @@
+{
+    "name": "com.bit34games.director",
+    "displayName": "Bit34 Director - MVP library for Unity",
+    "version": "1.0.0",
+    "description": "This is an MVP (Model-View-Presenter) architectural pattern library that has been written in C# to be used with Unity.",
+    "unity": "2018.4",
+    "documentationUrl": "https://github.com/bit34/bit34-director/",
+    "author":
+    {
+      "name": "Bit34 Games",
+      "url": "https://github.com/bit34"
+    }
+}
