@@ -9,5 +9,9 @@
     {
       "name": "Bit34 Games",
       "url": "https://github.com/bit34"
+    },
+    "dependencies":
+    {
+        "com.bit34games.injector": "https://github.com/bit34/bit34-injector-upm.git#v2.0.0"
     }
 }
