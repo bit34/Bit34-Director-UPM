@@ -16,3 +16,6 @@ nupkg/
 
 # Visual Studio 2015
 .vs/
+
+Bit34-Director.deps.json
+Bit34-Director.pdb
