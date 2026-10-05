@@ -1,8 +1,11 @@
-using System.Collections.Generic;
-using UnityEngine;
+#if UNITY_2018_1_OR_NEWER
+
 using Com.Bit34Games.Injector;
 using Com.Bit34Games.Director.Mediation;
 using Com.Bit34Games.Director.Signaling;
+using System.Collections.Generic;
+using UnityEngine;
+
 
 namespace Com.Bit34Games.Director.Unity
 {
@@ -85,3 +88,5 @@ namespace Com.Bit34Games.Director.Unity
 
     }
 }
+
+#endif

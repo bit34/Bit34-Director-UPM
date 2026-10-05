@@ -1,7 +1,10 @@
-﻿using System.Collections.Generic;
-using UnityEngine;
+﻿#if UNITY_2018_1_OR_NEWER
+
 using Com.Bit34Games.Director.Error;
 using Com.Bit34Games.Director.Mediation;
+using System.Collections.Generic;
+using UnityEngine;
+
 
 namespace Com.Bit34Games.Director.Unity
 {
@@ -65,3 +68,5 @@ namespace Com.Bit34Games.Director.Unity
 		protected virtual void PreDestroy(){}
 	}
 }
+
+#endif
